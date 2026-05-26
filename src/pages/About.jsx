@@ -1,5 +1,5 @@
 import React from "react";
-
+import Camera from "../assets/Camera.png";
 const About = () => {
   return (
     <div className="h-screen overflow-hidden relative ">
@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </div>
       <img
-        src="./public/Camera.png"
+        src={Camera}
         className="h-full absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2"
         alt=""
       />

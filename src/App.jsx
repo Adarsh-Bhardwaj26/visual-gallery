@@ -12,9 +12,9 @@ import NotFound from "./pages/NotFound.jsx";
 const App = () => {
   return (
     <div className="bg-black h-screen overflow-hidden flex flex-col">
-      <Navbar/>  {/* h-12, fixed so add pt-12 below */}
+      <Navbar/>  
       <div className="bg-black text-white flex-1 overflow-hidden pt-12">
-        {/* flex-1 fills remaining height, pt-12 offsets fixed navbar */}
+        
         <Routes>
           <Route path="/" element={<Main_pg/>} />
           <Route path="/Gallery" element={<Gallery />} />

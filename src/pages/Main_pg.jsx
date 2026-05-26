@@ -54,7 +54,10 @@ const Main_pg = () => {
           ))}
         </div>
 
-        <div className="flex justify-center items-center gap-5 flex-col absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
+       <div className="flex justify-center items-center
+gap-5 flex-col absolute top-[70%]
+left-1/2 -translate-x-1/2 -translate-y-1/2
+text-center w-full px-5">
           <h2 className="font-['Anton'] text-5xl text-white  tracking-wide ">
             A <span className="text-amber-300 text-6xl">Gallery</span> That Captures Imagination
           </h2>
