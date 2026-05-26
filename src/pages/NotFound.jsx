@@ -7,7 +7,7 @@ const NotFound = () => {
   const navigate = useNavigate();
 
   return (
-    <main className={`error-page ${darkMode ? "dark" : ""}`}>
+    <main className={`error-page ${darkMode ? "" :"dark" }`}>
       <div className="container">
         <div className="eyes">
           <div className="eye">
